@@ -1,0 +1,26 @@
+include ./bemto/bemto.pug
+- set_bemto_settings({ prefix: 'turbolock-' })
+
+doctype
+html(lang="en")
+	head
+		meta(charset="UTF-8")
+		title Turbolock
+		meta(name="viewport" content="width=device-width, initial-scale=1.0")
+		link(rel="stylesheet" href="./stylesheets/main.css")
+		link(rel="stylesheet" type="text/css" href="fonts/akrobat/akrobat.css" )
+		link(rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css")
+		link(rel="stylesheet" type="text/css" href="fonts/slick/slick.css")
+
+	body
+		.wrapper
+			include ./parts/_landing
+			.content
+				block content
+
+		
+		script(src="./javascripts/main.js")
+
+		
+
+		

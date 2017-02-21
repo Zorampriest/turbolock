@@ -1,0 +1,422 @@
++b.header
+	.container
+		.row
+			.col-lg-3.col-md-3.col-xs-10
+				+e.logo
+			.col-lg-1.col-md-1
+				+b.move_link1
+					+e.A.link(href="#") Регулировка <br> петель
+			.col-lg-2.col-md-2
+				+b.move_link2
+					+e.A.link(href="#") Замена <br> фурнитуры
+			.col-lg-1.col-md-1
+				+b.move_link3
+					+e.A.link(href="#") Установка <br> аксессуаров
+			.col-lg-3.col-md-3
+				+b.move_link4
+					+e.A.link(href="#") Ремонт <br> стеклопакетов
+			.col-lg-2.col-md-2
+				+b.phone_number 
+					+e.title +7 (3452) <span> 91-90-90
+				+b.button_header
+					button(src="#", alt="") 
+						<i class="fa fa-volume-control-phone" aria-hidden="true"></i> Записаться на ремонт
+			.col-lg-1.col-md-1.col-xs-2
+				+b.menu
+					<i class="fa fa-bars" aria-hidden="true"></i>
+
++b.blackblock
+	.container
+		.row
+			.col-lg-12.col-md-12.col-xs-12
+				+b.mobmenu
+					+b.move_linkmobile1
+						+e.A.link(href="#") Регулировка петель
+					+b.move_linkmobile2
+						+e.A.link(href="#") Замена фурнитуры
+					+b.move_linkmobile3
+						+e.A.link(href="#") Установка аксессуаров
+					+b.move_linkmobile4
+						+e.A.link(href="#") Ремонт стеклопакетов
+					+b.close
+						p Закрыть
+
+
++b.section_zero
+	.container
+		.row
+			.col-lg-12.col-md-12.col-xs-12
+				+b.nadpiszero
+					+e.titlemainzero Ремонт пастиковых окон и дверей в Тюмени
+				+b.linezero
+				+b.phone_numberzero
+					+e.title <i class="fa fa-volume-control-phone" aria-hidden="true"></i>+7 (3452) <span> 91-90-90
+				+b.buttonzero
+					button(src="#", alt="") Записаться на ремонт
+
+
++b.section_one
+	.container
+		.row
+			.col-lg-12.col-md-12.col-xs-12
+				+b.nadpisone
+					+e.titlemainone Ремонт пастиковых окон и дверей в Тюмени
+				+b.lineone
+		.row
+			.col-lg-6.col-md-6.col-xs-6
+			.col-lg-6.col-md-6.col-xs-6
+				+b.point1
+					+e.point1 <span> Регулировка петель от 500 р.
+		.row
+			.col-lg-6.col-md-6.col-xs-6
+			.col-lg-6.col-md-6.col-xs-6
+				+b.point2
+					+e.point2 <span> Москитные сетки от 900 р.
+		.row
+			.col-lg-6.col-md-6.col-xs-6
+			.col-lg-6.col-md-6.col-xs-6
+				+b.point3
+					+e.point3 <span> Замена фурнитуры от 250 р.
+		.row
+			.col-lg-6.col-md-6.col-xs-6
+			.col-lg-6.col-md-6.col-xs-6
+				+b.point4
+					+e.point4 <span> Ремонт стеклопакетов от 1500 р.
+
+
+
++b.section_two
+	.container
+		.row
+			.col-lg-1.col-md-1
+			.col-lg-2.col-md-2.col-xs-3
+				+e.title1 90%
+			.col-lg-5.col-md-5.col-xs-9
+				+e.title2 окон и дверей старше 5 лет требуют <br>профилактический осмотр и диагностику
+			.col-lg-3.col-md-3
+				+e.form
+					script(jQuery(function($){$("#phone").mask("+7 (999) 999-99-99");}))
+					input(type="tel", id='phone', pattern="+7 ([0-9]{3}) [0-9]{3}-[0-9]{2}-[0-9]{2}", placeholder='+7 (___) ___-____')
+			.col-lg-2.col-md-2
+		.row
+			.col-lg-1.col-md-1.col-xs-12
+			.col-lg-7.col-md-7.col-xs-12
+				+e.title3 Такая мера поможет предотвратить серьезные поломки <br>и продлит срок службы пластиковых элементов!
+			.col-lg-3.col-md-3.col-xs-12
+				+b.button2
+					button(src="#", alt="") Вызвать мастера
+			.col-lg-1.col-md-1.col-xs-12
+
+
++b.section_tree
+	.container
+		.row
+			.col-lg-12.col-md-12.col-xs-12
+				+b.nadpis
+					+e.titlemain Основные неисправности пластиковых окон - цены на ремонт
+				+b.line
+		.row
+			.col-lg-3.col-md-3.col-xs-5
+				+b.pict
+					+e.picture1
+			.col-lg-9.col-md-9.col-xs-7
+				+b.texto
+					+e.titleblock <i class="fa fa-arrow-circle-right" aria-hidden="true"></i> <span>Ремонт ручек, фурнитуры
+					+e.discription
+						p(class="scrollflow -slide-left -opacity") Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto deleniti natus ipsam. Totam cum repudiandae voluptatem deleniti reiciendis fugit quis blanditiis reprehenderit omnis id perspiciatis voluptates in non quam, tempora neque quos, ipsa officiis, voluptatibus doloremque recusandae provident et, eum nihil itaque! Unde, exercitationem officia laboriosam accusamus nulla, natus impedit? Quaerat culpa, beatae. Rem at, nisi fugiat maiores velit recusandae quidem iusto nostrum ut! Molestias porro fuga enim aperiam eos magni obcaecati, quod libero, pariatur, iste harum distinctio! Similique, nobis libero quos non inventore sed minima harum nisi magnam explicabo perferendis, quisquam enim nihil ea officia ratione veritatis! <br><br>Voluptates odio, suscipit molestiae hic voluptatibus eos accusantium inventore vero adipisci! Iure, voluptate consequatur. Ab vitae nemo, dolore repellendus, autem amet explicabo quae iusto non quibusdam nulla, laborum nihil rerum repudiandae dolor? Doloremque eligendi soluta optio ea veritatis labore perferendis molestiae natus porro aliquid, aspernatur suscipit laborum blanditiis laboriosam numquam, repellendus dolor. Culpa modi earum laudantium animi dolores. Assumenda, dicta, voluptates? Ipsum ut dolorum magni sed! Numquam quisquam tenetur quaerat ducimus, quis possimus provident at culpa quidem, repellat quo laboriosam blanditiis, voluptatibus aut libero. Velit sit cumque omnis, libero adipisci tenetur consectetur, nulla culpa officiis eum repellendus at quaerat natus maiores eveniet.
+					+e.discriptionhide
+						p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto deleniti natus ipsam. Totam cum repudiandae voluptatem deleniti reiciendis fugit quis blanditiis reprehenderit omnis id perspiciatis voluptates in non quam, tempora neque quos, ipsa officiis, voluptatibus doloremque recusandae provident et, eum nihil itaque! Unde, exercitationem officia laboriosam accusamus nulla, natus impedit? Quaerat culpa, beatae. Rem at, nisi fugiat maiores velit recusandae quidem iusto nostrum ut! Molestias porro fuga enim aperiam eos magni obcaecati, quod libero, pariatur, iste harum distinctio! Similique, nobis libero quos non inventore sed minima harum nisi magnam explicabo perferendis, quisquam enim nihil ea officia ratione veritatis!
+					+b.button1
+						button(src="#", alt="") от 450 руб.
+					+b.gradient
+
+		.row
+			.col-lg-3.col-md-3.col-xs-5
+				+b.pict
+					+e.picture2hide
+			.col-lg-9.col-md-9.col-xs-7
+				+b.texto
+					+e.titleblockhide <i class="fa fa-arrow-circle-right" aria-hidden="true"></i> <span>Ремонт стеклопакетов
+					+e.discriptionhide
+						p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto deleniti natus ipsam. Totam cum repudiandae voluptatem deleniti reiciendis fugit quis blanditiis reprehenderit omnis id perspiciatis voluptates in non quam, tempora neque quos, ipsa officiis, voluptatibus doloremque recusandae provident et, eum nihil itaque! Unde, exercitationem officia laboriosam accusamus nulla, natus impedit? Quaerat culpa, beatae. Rem at, nisi fugiat maiores velit recusandae quidem iusto nostrum ut! Molestias porro fuga enim aperiam eos magni obcaecati, quod libero, pariatur, iste harum distinctio! Similique, nobis libero quos non inventore sed minima harum nisi magnam explicabo perferendis, quisquam enim nihil ea officia ratione veritatis!
+					+b.button1hide
+						button(src="#", alt="") от 950 руб.
+					+b.gradienthide
+
+		.row
+			.col-lg-9.col-md-9.col-xs-7
+				+b.texto
+					+e.titleblock1 <i class="fa fa-arrow-circle-right" aria-hidden="true"></i> <span>Ремонт стеклопакетов
+					+e.discription
+							p(class="scrollflow -slide-right -opacity") Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto deleniti natus ipsam. Totam cum repudiandae voluptatem deleniti reiciendis fugit quis blanditiis reprehenderit omnis id perspiciatis voluptates in non quam, tempora neque quos, ipsa officiis, voluptatibus doloremque recusandae provident et, eum nihil itaque! Unde, exercitationem officia laboriosam accusamus nulla, natus impedit? Quaerat culpa, beatae. Rem at, nisi fugiat maiores velit recusandae quidem iusto nostrum ut! Molestias porro fuga enim aperiam eos magni obcaecati, quod libero, pariatur, iste harum distinctio! Similique, nobis libero quos non inventore sed minima harum nisi magnam explicabo perferendis, quisquam enim nihil ea officia ratione veritatis! Voluptates odio, suscipit molestiae hic voluptatibus eos accusantium inventore vero adipisci! <br><br>Iure, voluptate consequatur. Ab vitae nemo, dolore repellendus, autem amet explicabo quae iusto non quibusdam nulla, laborum nihil rerum repudiandae dolor? Doloremque eligendi soluta optio ea veritatis labore perferendis molestiae natus porro aliquid, aspernatur suscipit laborum blanditiis laboriosam numquam, repellendus dolor. Culpa modi earum laudantium animi dolores. Assumenda, dicta, voluptates? Ipsum ut dolorum magni sed! Numquam quisquam tenetur quaerat ducimus, quis possimus provident at culpa quidem, repellat quo laboriosam blanditiis, voluptatibus aut libero. Velit sit cumque omnis, libero adipisci tenetur consectetur, nulla culpa officiis eum repellendus at quaerat natus maiores eveniet.
+					+b.button5
+						button(src="#", alt="") от 950 руб.
+					+b.gradient1
+			.col-lg-3.col-md-3.col-xs-5
+				+b.pict
+					+e.picture2
+		.row
+			.col-lg-3.col-md-3.col-xs-5
+				+b.pict
+					+e.picture3
+			.col-lg-9.col-md-9.col-xs-7
+				+b.texto
+					+e.titleblock <i class="fa fa-arrow-circle-right" aria-hidden="true"></i> <span>Регулировка окон и дверей
+					+e.discription
+							p(class="scrollflow -slide-left -opacity") Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto deleniti natus ipsam. Totam cum repudiandae voluptatem deleniti reiciendis fugit quis blanditiis reprehenderit omnis id perspiciatis voluptates in non quam, tempora neque quos, ipsa officiis, voluptatibus doloremque recusandae provident et, eum nihil itaque! Unde, exercitationem officia laboriosam accusamus nulla, natus impedit? Quaerat culpa, beatae. Rem at, nisi fugiat maiores velit recusandae quidem iusto nostrum ut! Molestias porro fuga enim aperiam eos magni obcaecati, quod libero, pariatur, iste harum distinctio! Similique, nobis libero quos non inventore sed minima harum nisi magnam explicabo perferendis, quisquam enim nihil ea officia ratione veritatis! Voluptates odio, suscipit molestiae hic voluptatibus eos accusantium inventore vero adipisci! <br><br>Iure, voluptate consequatur. Ab vitae nemo, dolore repellendus, autem amet explicabo quae iusto non quibusdam nulla, laborum nihil rerum repudiandae dolor? Doloremque eligendi soluta optio ea veritatis labore perferendis molestiae natus porro aliquid, aspernatur suscipit laborum blanditiis laboriosam numquam, repellendus dolor. Culpa modi earum laudantium animi dolores. Assumenda, dicta, voluptates? Ipsum ut dolorum magni sed! Numquam quisquam tenetur quaerat ducimus, quis possimus provident at culpa quidem, repellat quo laboriosam blanditiis, voluptatibus aut libero. Velit sit cumque omnis, libero adipisci tenetur consectetur, nulla culpa officiis eum repellendus at quaerat natus maiores eveniet.
+					+e.discriptionhide
+						p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto deleniti natus ipsam. Totam cum repudiandae voluptatem deleniti reiciendis fugit quis blanditiis reprehenderit omnis id perspiciatis voluptates in non quam, tempora neque quos, ipsa officiis, voluptatibus doloremque recusandae provident et, eum nihil itaque! Unde, exercitationem officia laboriosam accusamus nulla, natus impedit? Quaerat culpa, beatae. Rem at, nisi fugiat maiores velit recusandae quidem iusto nostrum ut! Molestias porro fuga enim aperiam eos magni obcaecati, quod libero, pariatur, iste harum distinctio! Similique, nobis libero quos non inventore sed minima harum nisi magnam explicabo perferendis, quisquam enim nihil ea officia ratione veritatis!
+					+b.button1
+						button(src="#", alt="") от 650 руб.
+					+b.gradient
+		.row
+			.col-lg-9.col-md-9.col-xs-12
+				+b.texto
+					+e.titleblock1 <i class="fa fa-arrow-circle-right" aria-hidden="true"></i> <span>Установка аксессуаров
+					+e.discription
+							p(class="scrollflow -slide-right -opacity") Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto deleniti natus ipsam. Totam cum repudiandae voluptatem deleniti reiciendis fugit quis blanditiis reprehenderit omnis id perspiciatis voluptates in non quam, tempora neque quos, ipsa officiis, voluptatibus doloremque recusandae provident et, eum nihil itaque! Unde, exercitationem officia laboriosam accusamus nulla, natus impedit? Quaerat culpa, beatae. Rem at, nisi fugiat maiores velit recusandae quidem iusto nostrum ut! Molestias porro fuga enim aperiam eos magni obcaecati, quod libero, pariatur, iste harum distinctio! Similique, nobis libero quos non inventore sed minima harum nisi magnam explicabo perferendis, quisquam enim nihil ea officia ratione veritatis! Voluptates odio, suscipit molestiae hic voluptatibus eos accusantium inventore vero adipisci! <br><br>Iure, voluptate consequatur. Ab vitae nemo, dolore repellendus, autem amet explicabo quae iusto non quibusdam nulla, laborum nihil rerum repudiandae dolor? Doloremque eligendi soluta optio ea veritatis labore perferendis molestiae natus porro aliquid, aspernatur suscipit laborum blanditiis laboriosam numquam, repellendus dolor. Culpa modi earum laudantium animi dolores. Assumenda, dicta, voluptates? Ipsum ut dolorum magni sed! Numquam quisquam tenetur quaerat ducimus, quis possimus provident at culpa quidem, repellat quo laboriosam blanditiis, voluptatibus aut libero. Velit sit cumque omnis, libero adipisci tenetur consectetur, nulla culpa officiis eum repellendus at quaerat natus maiores eveniet.
+					+b.button5
+						button(src="#", alt="") от 450 руб.
+					+b.gradient1
+			.col-lg-3.col-md-3.col-xs-12
+				+b.pict
+					+e.picture4
+		.row
+			.col-lg-3.col-md-3.col-xs-5
+				+b.pict
+					+e.picture4hide
+			.col-lg-9.col-md-9.col-xs-7
+				+b.texto
+					+e.titleblockhide <i class="fa fa-arrow-circle-right" aria-hidden="true"></i> <span>Ремонт стеклопакетов
+					+e.discriptionhide
+						p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto deleniti natus ipsam. Totam cum repudiandae voluptatem deleniti reiciendis fugit quis blanditiis reprehenderit omnis id perspiciatis voluptates in non quam, tempora neque quos, ipsa officiis, voluptatibus doloremque recusandae provident et, eum nihil itaque! Unde, exercitationem officia laboriosam accusamus nulla, natus impedit? Quaerat culpa, beatae. Rem at, nisi fugiat maiores velit recusandae quidem iusto nostrum ut! Molestias porro fuga enim aperiam eos magni obcaecati, quod libero, pariatur, iste harum distinctio! Similique, nobis libero quos non inventore sed minima harum nisi magnam explicabo perferendis, quisquam enim nihil ea officia ratione veritatis!
+					+b.button1hide
+						button(src="#", alt="") от 450 руб.
+					+b.gradienthide
+		.row
+			.col-lg-12.col-md-12.col-xs-12
+				+b.price
+					+e.A.link(href="#") <i class="fa fa-calculator" aria-hidden="true"></i> Полный прайс-лист
+
+
++b.section_four
+	.container
+		.row
+			.col-lg-12.col-md-12.col-xs-12
+				+e.titlemain1 Доступный ремонт пластиковых окон в Тюмени - схема работы:
+				+b.line1
+		.row
+			.col-lg-1.col-md-1.col-xs-12
+			.col-lg-2.col-md-2.col-xs-12
+				+e.pict
+					img(src="images/hand-gesture.png", alt="") 
+					<i class="fa fa-arrow-right" aria-hidden="true"></i>
+				+e.disription
+					p Вызываете мастера по телефону или оставляете заявку на сайте
+			.col-lg-2.col-md-2.col-xs-12
+				+e.pict
+					img(src="images/car.png", alt="") 
+					<i class="fa fa-arrow-right" aria-hidden="true"></i>
+				+e.disription
+					p Мастер выезжает на заказ в удобное для Вас время
+			.col-lg-2.col-md-2.col-xs-12
+				+e.pict
+					img(src="images/window.png", alt="") 
+					<i class="fa fa-arrow-right" aria-hidden="true"></i>
+				+e.disription
+					p Осмотр окна (дверей). Предварительная консультация по цене ремонта
+			.col-lg-2.col-md-2.col-xs-12
+				+e.pict
+					img(src="images/tools.png", alt="") 
+					<i class="fa fa-arrow-right" aria-hidden="true"></i>
+				+e.disription
+					p Мастер производит ремонт на месте или согласовывает удобное время
+			.col-lg-2.col-md-2.col-xs-12
+				+e.pict
+					img(src="images/wallet.png", alt="") 
+				+e.disription
+					p Оплата производится после выполнения всех работ
+			.col-lg-1.col-md-1.col-xs-12
+		.row
+			.col-lg-1.col-md-1.col-xs-12
+			.col-lg-3.col-md-3.col-xs-12
+				+e.title Бесплатный вызов специалиста по ремонту:
+				+e.titlehide Бесплатный вызов <br>специалиста по ремонту:
+			.col-lg-4.col-md-4.col-xs-12
+				+e.form2
+					script(jQuery(function($){$("#phone").mask("+7 (999) 999-99-99");}))
+					input(type="tel", id='phone1', pattern="+7 ([0-9]{3}) [0-9]{3}-[0-9]{2}-[0-9]{2}", placeholder='+7 (___) ___-____')
+			.col.lg-3.col-md-3.col-xs-12
+				+b.button
+					button(src="#", alt="") Вызвать мастера				
+			.col-lg-1.col-md-1.col-xs-12
+
+
+
+
++b.section_five
+	.container
+		.row
+			.col-lg-3.col-md-3.col-xs-12
+				+b.engineer
+					+e.engineerpict
+						img(src="images/engineer-path.png", alt="")
+			.col-lg-5.col-md-5.col-xs-12
+				+e.engineer
+				+e.titlemain Для того, чтобы узнать точную стоимость работ отправляйте нам фото с описанием проблемы в Viber или Whatsap!
+				+e.pict6
+					img(src="images/social.png", alt="")
+			.col-xs-2
+				+e.vatsup
+					img(src="images/icon-whatsapp.png", alt="")
+			.col-lg-5.col-md-5.col-xs-8
+				+e.titlephone +7 <span>(</span>932<span>)</span>-321-02-75 <br> Консультация бесплатна!
+			.col-xs-2
+				+e.viber
+					img(src="images/Whatsapp-Viber-Telegram.png", alt="")
+			.col-lg-4.col-md-4.col-xs-12
+				+b.phonehand
+					+e.handphone
+						img(src="images/hand-white-phone-frame.png", alt="")
+
++b.section_six
+	.container
+		.row
+			.col-lg-12.col-md-12.col-xs-12
+				+e.titlemain1 Галерея выполненных работ
+				+e.title6main Галерея выполненных работ
+				+b.line2
+				+b.lineblock6
+				+b.slider
+					+e.content
+						img(src="images/block1.png", alt="")
+						p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos perferendis, reiciendis illum totam corrupti mollitia exercitationem quasi. At, officiis tempore. Fugit hic quidem quam facilis ipsa ratione dolor aut, mollitia odit optio consequuntur eos! Numquam perspiciatis repellendus incidunt, pariatur accusantium cum natus nostrum. Repudiandae, labore commodi veritatis enim quidem magnam ipsum. Numquam distinctio incidunt quae itaque, adipisci veritatis iste magni ab, repellat possimus magnam sapiente, quaerat! Ut commodi iusto nemo sed rem tempore earum quaerat, laudantium quod quibusdam. Natus odio aspernatur qui nostrum perspiciatis eaque ipsam. Ut beatae explicabo excepturi voluptatem eveniet reiciendis cumque, pariatur quasi inventore, nihil, accusamus repellendus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos perferendis, reiciendis illum totam corrupti mollitia exercitationem quasi. At, officiis tempore. Fugit hic quidem quam facilis ipsa ratione dolor aut, mollitia odit optio consequuntur eos! Numquam perspiciatis repellendus incidunt, pariatur accusantium cum natus nostrum. Repudiandae, labore commodi veritatis enim quidem magnam ipsum. Numquam distinctio incidunt quae itaque, adipisci veritatis iste magni ab, repellat possimus magnam sapiente, quaerat! Ut commodi iusto nemo sed rem tempore earum quaerat, laudantium quod quibusdam. Natus odio aspernatur qui nostrum perspiciatis eaque ipsam. Ut beatae explicabo excepturi voluptatem eveniet reiciendis cumque, pariatur quasi inventore, nihil, accusamus repellendus.
+					+e.content
+						img(src="images/block2.png", alt="")
+						p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos perferendis, reiciendis illum totam corrupti mollitia exercitationem quasi. At, officiis tempore. Fugit hic quidem quam facilis ipsa ratione dolor aut, mollitia odit optio consequuntur eos! Numquam perspiciatis repellendus incidunt, pariatur accusantium cum natus nostrum. Repudiandae, labore commodi veritatis enim quidem magnam ipsum. Numquam distinctio incidunt quae itaque, adipisci veritatis iste magni ab, repellat possimus magnam sapiente, quaerat! Ut commodi iusto nemo sed rem tempore earum quaerat, laudantium quod quibusdam. Natus odio aspernatur qui nostrum perspiciatis eaque ipsam. Ut beatae explicabo excepturi voluptatem eveniet reiciendis cumque, pariatur quasi inventore, nihil, accusamus repellendus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos perferendis, reiciendis illum totam corrupti mollitia exercitationem quasi. At, officiis tempore. Fugit hic quidem quam facilis ipsa ratione dolor aut, mollitia odit optio consequuntur eos! Numquam perspiciatis repellendus incidunt, pariatur accusantium cum natus nostrum. Repudiandae, labore commodi veritatis enim quidem magnam ipsum. Numquam distinctio incidunt quae itaque, adipisci veritatis iste magni ab, repellat possimus magnam sapiente, quaerat! Ut commodi iusto nemo sed rem tempore earum quaerat, laudantium quod quibusdam. Natus odio aspernatur qui nostrum perspiciatis eaque ipsam. Ut beatae explicabo excepturi voluptatem eveniet reiciendis cumque, pariatur quasi inventore, nihil, accusamus repellendus.
+					+e.content
+						img(src="images/block3.png", alt="")
+						p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos perferendis, reiciendis illum totam corrupti mollitia exercitationem quasi. At, officiis tempore. Fugit hic quidem quam facilis ipsa ratione dolor aut, mollitia odit optio consequuntur eos! Numquam perspiciatis repellendus incidunt, pariatur accusantium cum natus nostrum. Repudiandae, labore commodi veritatis enim quidem magnam ipsum. Numquam distinctio incidunt quae itaque, adipisci veritatis iste magni ab, repellat possimus magnam sapiente, quaerat! Ut commodi iusto nemo sed rem tempore earum quaerat, laudantium quod quibusdam. Natus odio aspernatur qui nostrum perspiciatis eaque ipsam. Ut beatae explicabo excepturi voluptatem eveniet reiciendis cumque, pariatur quasi inventore, nihil, accusamus repellendus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos perferendis, reiciendis illum totam corrupti mollitia exercitationem quasi. At, officiis tempore. Fugit hic quidem quam facilis ipsa ratione dolor aut, mollitia odit optio consequuntur eos! Numquam perspiciatis repellendus incidunt, pariatur accusantium cum natus nostrum. Repudiandae, labore commodi veritatis enim quidem magnam ipsum. Numquam distinctio incidunt quae itaque, adipisci veritatis iste magni ab, repellat possimus magnam sapiente, quaerat! Ut commodi iusto nemo sed rem tempore earum quaerat, laudantium quod quibusdam. Natus odio aspernatur qui nostrum perspiciatis eaque ipsam. Ut beatae explicabo excepturi voluptatem eveniet reiciendis cumque, pariatur quasi inventore, nihil, accusamus repellendus.
+
++b.section_seven
+	.container
+		.row
+			.col-lg-6.col-md-6.col-xs-12
+				+e.kartinka
+					img(src="images/okonnaya-furnitura.png", alt="")
+			.col-lg-6.col-md-6.col-xs-12
+				+e.titlemain3 Мы используем только качетсвенную фурнитуру, которая прослужит Вам долгие годы!
+				+e.discription
+					p(class="scrollflow -slide-left -opacity") Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac sagittis augue, a blandit sapien. Suspendisse imperdiet aliquet egestas. Quisque scelerisque ut magna et maximus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec aliquam felis at mattis iaculis. Integer gravida, lectus tristique hendrerit .
+				+e.discription7hide
+					p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac sagittis augue, a blandit sapien. Suspendisse imperdiet aliquet egestas. Quisque scelerisque ut magna et maximus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec aliquam felis at mattis iaculis. Integer gravida, lectus tristique hendrerit .
+				.row
+					.col-lg-4.col-md-4.col-xs-4
+						+b.kart1
+							+e.pict1
+							+e.discription2
+								p(class="scrollflow -slide-bottom -opacity") Бесплатные консультации для клиентов!
+					.col-lg-4.col-md-4.col-xs-4
+						+b.kart2
+							+e.pict2
+							+e.discription2
+								p(class="scrollflow -slide-bottom -opacity") Гарантия на все виды работ!
+					.col-lg-4.col-md-4.col-xs-4
+						+b.kart3
+							+e.pict3
+							+e.discription2
+								p(class="scrollflow -slide-bottom -opacity") Материалы <br>премиум качества по доступной цене!
+		.row
+			.col-lg-2.col-md-2.col-xs-12
+				+b.logo1
+					+e.pict
+						img(src="images/logo_1.png", alt="")
+			.col-lg-2.col-md-2.col-xs-12
+				+b.logo2
+					+e.pict
+						img(src="images/logo_2.png", alt="")
+			.col-lg-3.col-md-3.col-xs-12
+				+b.logo3
+					+e.pict
+						img(src="images/logo_3.png", alt="")
+			.col-lg-3.col-md-3.col-xs-12
+				+b.logo4
+					+e.pict
+						img(src="images/logo_4.png", alt="")
+			.col-lg-2.col-md-2.col-xs-12
+				+b.logo5
+					+e.pict
+						img(src="images/logo_5.png", alt="")
+
+
++b.section_eight
+	.container
+		.row
+			.col-lg-12.col-md-12.col-xs-12
+				+e.titlemain1 Контакты
+				+e.title8main Контакты
+				+b.line3
+				+b.lineblock8
+		.row
+			.col-lg-5.col-md-5.col-xs-12
+				+e.discription4
+					p Мы работаем в Тюмени и области  
+				+e.discription5
+					p 8 <span>(3452)</span> 610-275<br> 8 <span>(932)</span> 321-02<br><br> info<span>@</span>turbolock.ru<br><br> Отправьте нам сообщение:
+				+b.input-menu
+					+e.form
+						textarea(rows="10" cols="45" name="text")
+				.row
+					.col-lg-6.col-md-6.col-xs-12
+						+e.form4
+							script(jQuery(function($){$("#phone").mask("+7 (999) 999-99-99");}))
+							input(type="tel", id='phone2', pattern="+7 ([0-9]{3}) [0-9]{3}-[0-9]{2}-[0-9]{2}", placeholder='+7 (___) ___-____')
+					.col-lg-6.col-md-6.col-xs-12
+						+b.button3
+							button(src="#", alt="") Отправить
+			.col-lg-7.col-md-7.col-xs-12
+				+b.map
+					<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=sjXCQT0znbc-FILoiRoC-v9yrSeOBhP_&amp;width=652&amp;height=456&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>
+				//- <a class="dg-widget-link" href="http://2gis.ru/tyumen/firm/70000001020496366/center/65.55761933326723,57.13563965544249/zoom/16?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=bigMap">Посмотреть на карте Тюмени</a><div class="dg-widget-link"><a href="http://2gis.ru/tyumen/firm/70000001020496366/photos/70000001020496366/center/65.55761933326723,57.13563965544249/zoom/17?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=photos">Фотографии компании</a></div><div class="dg-widget-link"><a href="http://2gis.ru/tyumen/center/65.557622,57.134561/zoom/16/routeTab/rsType/bus/to/65.557622,57.134561╎Турболок, выездная служба вскрытия замков и отогрева автомобилей?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=route">Найти проезд до Турболок, выездная служба вскрытия замков и отогрева автомобилей</a></div><script charset="utf-8" src="http://widgets.2gis.com/js/DGWidgetLoader.js"></script><script charset="utf-8">new DGWidgetLoader({"width":652,"height":456,"borderColor":"#a3a3a3","pos":{"lat":57.13563965544249,"lon":65.55761933326723,"zoom":16},"opt":{"city":"tyumen"},"org":[{"id":"70000001020496366"}]});</script><noscript style="color:#c00;font-size:16px;font-weight:bold;">Виджет карты использует JavaScript. Включите его в настройках вашего браузера.</noscript>
+
+
++b.footer
+	.container
+		.row
+			.col-lg-3.col-md-3.col-xs-4
+				+e.logo
+			.col-lg-1.col-md-1
+				+b.move_link1
+					+e.A.link(href="#") Регулировка <br> петель
+			.col-lg-2.col-md-2
+				+b.move_link2
+					+e.A.link(href="#") Замена <br> фурнитуры
+			.col-lg-1.col-md-1
+				+b.move_link3
+					+e.A.link(href="#") Установка <br> аксессуаров
+			.col-lg-3.col-md-3
+				+b.move_link4
+					+e.A.link(href="#") Ремонт <br> стеклопакетов
+			.col-lg-2.col-md-2
+				+b.phone_number1
+					+e.title +7 (3452) <span> 91-90-90
+						img(src="images/вибер.png", alt="")
+				+b.button_footer
+					button(src="#", alt="") 
+						<i class="fa fa-volume-control-phone" aria-hidden="true"></i> Записаться на ремонт
+					img(src="images/ватсап.png", alt="")
+			.col-lg-3.col-md-3.col-xs-8
+				+b.pravahide
+					+e.discription
+						p ООО “Таргет-ТМ” 
+						p Все права защищены. 2017
+						+e.A.linkhide(href="#") Политика конфидициальности
+		.row
+			.col-lg-5.col-md-5
+				+b.prava
+					+e.discription
+						p ООО “Таргет-ТМ” Все права защищены. 2017
+			.col-lg-4.col-md-4
+			.col-lg-3.col-md-3
+				+b.politika
+					+e.A.link(href="#") Политика конфидициальности
